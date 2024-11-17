@@ -1,0 +1,614 @@
+{
+    "standards": [
+        {
+            "name": "K.CC.1",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Count to 100 by ones and by tens.",
+            "from": [],
+            "to": ["K.CC.2", "K.CC.4a", "1.NBT.1"]
+        },
+        {
+            "name": "K.CC.2",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Count forward beginning from a given number within the known sequence (instead of having to begin at 1).",
+            "from": ["K.CC.1"],
+            "to": ["K.CC.4c"]
+        },
+        {
+            "name": "K.CC.3",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Write numbers from 0 to 20. Represent a number of objects with a written numeral 0-20 (with 0 representing a count of no objects).",
+            "from": [],
+            "to": ["1.NBT.1"]
+        },
+        {
+            "name": "K.CC.4a",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "When counting objects, say the number names in the standard order, pairing each object with one and only one number name and each number name with one and only one object.",
+            "from": ["K.CC.1"],
+            "to": ["K.CC.4b"]
+        },
+        {
+            "name": "K.CC.4b",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Understand that the last number name said tells the number of objects counted. The number of objects is the same regardless of their arrangement or the order in which they were counted.",
+            "from": ["K.CC.4a"],
+            "to": ["K.CC.5"]
+        },
+        {
+            "name": "K.CC.4c",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Understand that each successive number name refers to a quantity that is one larger.",
+            "from": ["K.CC.2"],
+            "to": ["1.OA.5"]
+        },
+        {
+            "name": "K.CC.5",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Count to answer “how many?” questions about as many as 20 things arranged in a line, a rectangular array, or a circle, or as many as 10 things in a scattered configuration; given a number from 1–20, count out that many objects.",
+            "from": ["K.CC.4b"],
+            "to": ["K.CC.6"]
+        },
+        {
+            "name": "K.CC.6",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Identify whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group, e.g., by using matching and counting strategies.",
+            "from": ["K.CC.5"],
+            "to": ["K.CC.7", "K.MD.3"]
+        },
+        {
+            "name": "K.CC.7",
+            "grade": "Kindergarten",
+            "domain": "Counting and Cardinality",
+            "description": "Compare two numbers between 1 and 10 presented as written numerals.",
+            "from": ["K.CC.6"],
+            "to": ["1.NBT.3"]
+        },
+        {
+            "name": "K.OA.1",
+            "grade": "Kindergarten",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Represent addition and subtraction with objects, fingers, mental images, drawings, sounds (e.g., claps), acting out situations, verbal explanations, expressions, or equations.",
+            "from": [],
+            "to": ["K.OA.2"]
+        },
+        {
+            "name": "K.OA.2",
+            "grade": "Kindergarten",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Solve addition and subtraction word problems, and add and subtract within 10, e.g., by using objects or drawings to represent the problem.",
+            "from": ["K.OA.1"],
+            "to": ["K.OA.3", "1.OA.1", "1.OA.3", "1.OA.4", "1.OA.6"]
+        },
+        {
+            "name": "K.OA.3",
+            "grade": "Kindergarten",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Decompose numbers less than or equal to 10 into pairs in more than one way, e.g., by using objects or drawings, and record each decomposition by a drawing or equation (e.g., 5 = 2 + 3 and 5 = 4 + 1).",
+            "from": ["K.OA.2"],
+            "to": ["K.OA.4", "K.OA.5", "K.NBT.1", "1.OA.6"]
+        },
+        {
+            "name": "K.OA.4",
+            "grade": "Kindergarten",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "For any number from 1 to 9, find the number that makes 10 when added to the given number, e.g., by using objects or drawings, and record the answer with a drawing or equation.",
+            "from": ["K.OA.3"],
+            "to": ["1.OA.6"]
+        },
+        {
+            "name": "K.OA.5",
+            "grade": "Kindergarten",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Fluently add and subtract within 5.",
+            "from": ["K.OA.3"],
+            "to": ["1.OA.6"]
+        },
+        {
+            "name": "K.NBT.1",
+            "grade": "Kindergarten",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Compose and decompose numbers from 11 to 19 into ten ones and some further ones, e.g., by using objects or drawings, and record each composition or decomposition by a drawing or equation (e.g., 18 = 10 + 8); understand that these numbers are composed of ten ones and one, two, three, four, five, six, seven, eight, or nine ones.",
+            "from": ["K.OA.3"],
+            "to": ["1.NBT.2"]
+        },
+        {
+            "name": "K.MD.1",
+            "grade": "Kindergarten",
+            "domain": "Measurement and Data",
+            "description": "Describe measurable attributes of objects, such as length or weight. Describe several measurable attributes of a single object.",
+            "from": [],
+            "to": ["K.MD.2"]
+        },
+        {
+            "name": "K.MD.2",
+            "grade": "Kindergarten",
+            "domain": "Measurement and Data",
+            "description": "Directly compare two objects with a measurable attribute in common, to see which object has “more of”/“less of” the attribute, and describe the difference. For example, directly compare the heights of two children and describe one child as taller/shorter.",
+            "from": ["K.MD.1"],
+            "to": ["K.MD.3", "1.MD.1"]
+        },
+        {
+            "name": "K.MD.3",
+            "grade": "Kindergarten",
+            "domain": "Measurement and Data",
+            "description": "Classify objects into given categories; count the numbers of objects in each category and sort the categories by count.",
+            "from": ["K.MD.2", "K.CC.6"],
+            "to": ["1.MD.4"]
+        },
+        {
+            "name": "K.G.1",
+            "grade": "Kindergarten",
+            "domain": "Geometry",
+            "description": "Describe objects in the environment using names of shapes, and describe the relative positions of these objects using terms such as above, below, beside, in front of, behind, and next to.",
+            "from": [],
+            "to": ["K.G.2"]
+        },
+        {
+            "name": "K.G.2",
+            "grade": "Kindergarten",
+            "domain": "Geometry",
+            "description": "Correctly name shapes regardless of their orientations or overall size.",
+            "from": ["K.G.1"],
+            "to": ["K.G.3", "1.G.1"]
+        },
+        {
+            "name": "K.G.3",
+            "grade": "Kindergarten",
+            "domain": "Geometry",
+            "description": "Identify shapes as two-dimensional (lying in a plane, “flat”) or three- dimensional (“solid”).",
+            "from": ["K.G.2"],
+            "to": ["K.G.4", "1.G.1"]
+        },
+        {
+            "name": "K.G.4",
+            "grade": "Kindergarten",
+            "domain": "Geometry",
+            "description": "Analyze and compare two- and three-dimensional shapes, in different sizes and orientations, using informal language to describe their similarities, differences, parts (e.g., number of sides and vertices/“corners”) and other attributes (e.g., having sides of equal length).",
+            "from": ["K.G.3"],
+            "to": ["K.G.5", "1.G.1"]
+        },
+        {
+            "name": "K.G.5",
+            "grade": "Kindergarten",
+            "domain": "Geometry",
+            "description": "Model shapes in the world by building shapes from components (e.g., sticks and clay balls) and drawing shapes.",
+            "from": ["K.G.4"],
+            "to": ["K.G.6", "1.G.1"]
+        },
+        {
+            "name": "K.G.6",
+            "grade": "Kindergarten",
+            "domain": "Geometry",
+            "description": "Compose simple shapes to form larger shapes. For example, “Can you join these two triangles with full sides touching to make a rectangle?”",
+            "from": ["K.G.5"],
+            "to": ["1.G.2"]
+        },
+        {
+            "name": "1.OA.1",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Use addition and subtraction within 20 to solve word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using objects, drawings, and equations with a symbol for the unknown number to represent the problem.",
+            "from": ["K.OA.2"],
+            "to": ["1.OA.2", "1.MD.4", "2.OA.1"]
+        },
+        {
+            "name": "1.OA.2",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Solve word problems that call for addition of three whole numbers whose sum is less than or equal to 20, e.g., by using objects, drawings, and equations with a symbol for the unknown number to represent the problem.",
+            "from": ["1.OA.1"],
+            "to": ["1.MD.4"]
+        },
+        {
+            "name": "1.OA.3",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Apply properties of operations as strategies to add and subtract. Examples: If 8 + 3 = 11 is known, then 3 + 8 = 11 is also known. (Commutative property of addition.) To add 2 + 6 + 4, the second two numbers can be added to make a ten, so 2 + 6 + 4 = 2 + 10 = 12. (Associative property of addition.)",
+            "from": ["K.OA.2"],
+            "to": ["1.OA.6", "2.NBT.9"]
+        },
+        {
+            "name": "1.OA.4",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Understand subtraction as an unknown-addend problem. For example, subtract 10 – 8 by finding the number that makes 10 when added to 8.",
+            "from": ["K.OA.2"],
+            "to": ["1.OA.6", "2.NBT.9"]
+        },
+        {
+            "name": "1.OA.5",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Relate counting to addition and subtraction (e.g., by counting on 2 to add 2).",
+            "from": ["K.CC.4c"],
+            "to": ["1.OA.6"]
+        },
+        {
+            "name": "1.OA.6",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Add and subtract within 20, demonstrating fluency for addition and subtraction within 10. Use strategies such as counting on; making ten (e.g., 8 + 6 = 8 + 2 + 4 = 10 + 4 = 14); decomposing a number leading to a ten (e.g., 13 – 4 = 13 – 3 – 1 = 10 – 1 = 9); using the relationship between addition and subtraction (e.g., knowing that 8 + 4 = 12, one knows 12 – 8 = 4); and creating equivalent but easier or known sums (e.g., adding 6 + 7 by creating the known equivalent 6 + 6 + 1 = 12 + 1 = 13).",
+            "from": ["K.OA.2", "K.OA.3", "K.OA.4", "K.OA.5", "1.OA.3", "1.OA.4", "1.OA.5"],
+            "to": ["1.NBT.4", "2.OA.2"]
+        },
+        {
+            "name": "1.OA.7",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Understand the meaning of the equal sign, and determine if equations involving addition and subtraction are true or false. For example, which of the following equations are true and which are false? 6 = 6, 7 = 8 – 1, 5 + 2 = 2 + 5, 4 + 1 = 5 + 2.",
+            "from": [],
+            "to": ["1.OA.8", "2.OA.3", "2.OA.4"]
+        },
+        {
+            "name": "1.OA.8",
+            "grade": "1st Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Determine the unknown whole number in an addition or subtraction equation relating three whole numbers. For example, determine the unknown number that makes the equation true in each of the equations 8 + ? = 11, 5 = ? – 3, 6 + 6 = ?.",
+            "from": ["1.OA.7"],
+            "to": ["4.MD.7", "4.NF.3"]
+        },
+        {
+            "name": "1.NBT.1",
+            "grade": "1st Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Count to 120, starting at any number less than 120. In this range, read and write numerals and represent a number of objects with a written numeral.",
+            "from": ["K.CC.1"],
+            "to": ["1.NBT.2"]
+        },
+        {
+            "name": "1.NBT.2",
+            "grade": "1st Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Understand that the two digits of a two-digit number represent amounts of tens and ones. Understand the following as special cases: 1.NBT.2a: 10 can be thought of as a bundle of ten ones — called a “ten.” 1.NBT.2b: The numbers from 11 to 19 are composed of a ten and one, two, three, four, five, six, seven, eight, or nine ones. 1.NBT.2c: The numbers 10, 20, 30, 40, 50, 60, 70, 80, 90 refer to one, two, three, four, five, six, seven, eight, or nine tens (and 0 ones).",
+            "from": ["K.NBT.1", "1.NBT.1"],
+            "to": ["1.NBT.3", "1.NBT.4", "1.NBT.5", "1.NBT.6", "2.NBT.1"]
+        },
+        {
+            "name": "1.NBT.3",
+            "grade": "1st Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Compare two two-digit numbers based on meanings of the tens and ones digits, recording the results of comparisons with the symbols >, =, and <.",
+            "from": ["K.CC.7", "1.NBT.2"],
+            "to": []
+        },
+        {
+            "name": "1.NBT.4",
+            "grade": "1st Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Add within 100, including adding a two-digit number and a one-digit number, and adding a two-digit number and a multiple of 10, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used. Understand that in adding two-digit numbers, one adds tens and tens, ones and ones; and sometimes it is necessary to compose a ten.",
+            "from": ["1.NBT.2", "1.OA.6"],
+            "to": ["2.NBT.5", "2.OA.1"]
+        },
+        {
+            "name": "1.NBT.5",
+            "grade": "1st Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Given a two-digit number, mentally find 10 more or 10 less than the number, without having to count; explain the reasoning used.",
+            "from": ["1.NBT.2"],
+            "to": ["2.NBT.5", "2.OA.1"]
+        },
+        {
+            "name": "1.NBT.6",
+            "grade": "1st Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Subtract multiples of 10 in the range 10-90 from multiples of 10 in the range 10-90 (positive or zero differences), using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used.",
+            "from": ["1.NBT.2"],
+            "to": ["2.NBT.5", "2.OA.1"]
+        },
+        {
+            "name": "1.MD.1",
+            "grade": "1st Grade",
+            "domain": "Measurement and Data",
+            "description": "Order three objects by length; compare the lengths of two objects indirectly by using a third object.",
+            "from": ["K.MD.2"],
+            "to": ["1.MD.2"]
+        },
+        {
+            "name": "1.MD.2",
+            "grade": "1st Grade",
+            "domain": "Measurement and Data",
+            "description": "Express the length of an object as a whole number of length units, by laying multiple copies of a shorter object (the length unit) end to end; understand that the length measurement of an object is the number of same-size length units that span it with no gaps or overlaps. Limit to contexts where the object being measured is spanned by a whole number of length units with no gaps or overlaps.",
+            "from": ["1.MD.1"],
+            "to": ["2.MD.1"]
+        },
+        {
+            "name": "1.MD.3",
+            "grade": "1st Grade",
+            "domain": "Measurement and Data",
+            "description": "Tell and write time in hours and half-hours using analog and digital clocks.",
+            "from": [],
+            "to": ["2.MD.7"]
+        },
+        {
+            "name": "1.MD.4",
+            "grade": "1st Grade",
+            "domain": "Measurement and Data",
+            "description": "Organize, represent, and interpret data with up to three categories; ask and answer questions about the total number of data points, how many in each category, and how many more or less are in one category than in another.",
+            "from": ["K.MD.3", "1.OA.1", "1.OA.2"],
+            "to": ["2.MD.10"]
+        },
+        {
+            "name": "1.G.1",
+            "grade": "1st Grade",
+            "domain": "Geometry",
+            "description": "Distinguish between defining attributes (e.g., triangles are closed and three-sided) versus non-defining attributes (e.g., color, orientation, overall size); build and draw shapes to possess defining attributes.",
+            "from": ["K.G.2", "K.G.3", "K.G.4"],
+            "to": ["2.G.1"]
+        },
+        {
+            "name": "1.G.2",
+            "grade": "1st Grade",
+            "domain": "Geometry",
+            "description": "Compose two-dimensional shapes (rectangles, squares, trapezoids, triangles, half-circles, and quarter-circles) or three-dimensional shapes (cubes, right rectangular prisms, right circular cones, and right circular cylinders) to create a composite shape, and compose new shapes from the composite shape.",
+            "from": ["K.G.6"],
+            "to": ["1.G.3", "3.MD.5"]
+        },
+        {
+            "name": "1.G.3",
+            "grade": "1st Grade",
+            "domain": "Geometry",
+            "description": "Partition circles and rectangles into two and four equal shares, describe the shares using the words halves, fourths, and quarters, and use the phrases half of, fourth of, and quarter of. Describe the whole as two of, or four of the shares. Understand for these examples that decomposing into more equal shares creates smaller shares.",
+            "from": ["1.G.2"],
+            "to": ["2.G.3"]
+        },
+        {
+            "name": "2.OA.1",
+            "grade": "2nd Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.",
+            "from": ["1.OA.1", "1.NBT.4", "1.NBT.5", "1.NBT.6"],
+            "to": ["3.OA.8", "4.NF.3"]
+        },
+        {
+            "name": "2.OA.2",
+            "grade": "2nd Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Fluently add and subtract within 20 using mental strategies. By end of Grade 2, know from memory all sums of two one-digit numbers.",
+            "from": ["1.OA.6"],
+            "to": ["2.NBT.5"]
+        },
+        {
+            "name": "2.OA.3",
+            "grade": "2nd Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Determine whether a group of objects (up to 20) has an odd or even number of members, e.g., by pairing objects or counting them by 2s; write an equation to express an even number as a sum of two equal addends.",
+            "from": ["1.OA.7"],
+            "to": ["3.OA.1", "3.OA.9"]
+        },
+        {
+            "name": "2.OA.4",
+            "grade": "2nd Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns; write an equation to express the total as a sum of equal addends.",
+            "from": ["1.OA.7"],
+            "to": ["3.OA.1"]
+        },
+        {
+            "name": "2.NBT.1",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Understand that the three digits of a three-digit number represent amounts of hundreds, tens, and ones; e.g., 706 equals 7 hundreds, 0 tens, and 6 ones. Understand the following as special cases: 2.NBT.1a: 100 can be thought of as a bundle of ten tens — called a “hundred.” 2.NBT.1b: The numbers 100, 200, 300, 400, 500, 600, 700, 800, 900 refer to one, two, three, four, five, six, seven, eight, or nine hundreds (and 0 tens and 0 ones).",
+            "from": ["1.NBT.2"],
+            "to": ["2.NBT.3", "2.NBT.4", "2.NBT.6", "2.NBT.7", "2.NBT.8", "3.NBT.1", "3.NBT.3"]
+        },
+        {
+            "name": "2.NBT.2",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Count within 1000; skip-count by 5s, 10s, and 100s.",
+            "from": [],
+            "to": ["2.NBT.1"]
+        },
+        {
+            "name": "2.NBT.3",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Read and write numbers to 1000 using base-ten numerals, number names, and expanded form.",
+            "from": ["2.NBT.1"],
+            "to": []
+        },
+        {
+            "name": "2.NBT.4",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Compare two three-digit numbers based on meanings of the hundreds, tens, and ones digits, using >, =, and < symbols to record the results of comparisons.",
+            "from": ["2.NBT.1"],
+            "to": []
+        },
+        {
+            "name": "2.NBT.5",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Fluently add and subtract within 100 using strategies based on place value, properties of operations, and/or the relationship between addition and subtraction.",
+            "from": ["1.NBT.4", "1.NBT.5", "1.NBT.6", "2.OA.2"],
+            "to": []
+        },
+        {
+            "name": "2.NBT.6",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Add up to four two-digit numbers using strategies based on place value and properties of operations.",
+            "from": ["2.NBT.1", "2.NBT.7"],
+            "to": []
+        },
+        {
+            "name": "2.NBT.7",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Add and subtract within 1000, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method. Understand that in adding or subtracting three- digit numbers, one adds or subtracts hundreds and hundreds, tens and tens, ones and ones; and sometimes it is necessary to compose or decompose tens or hundreds.",
+            "from": ["2.NBT.1"],
+            "to": ["3.NBT.2", "2.NBT.6"]
+        },
+        {
+            "name": "2.NBT.8",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Mentally add 10 or 100 to a given number 100–900, and mentally subtract 10 or 100 from a given number 100–900.",
+            "from": ["2.NBT.1"],
+            "to": ["3.NBT.2"]
+        },
+        {
+            "name": "2.NBT.9",
+            "grade": "2nd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "Explain why addition and subtraction strategies work, using place value and the properties of operations.",
+            "from": ["1.OA.3", "1.OA.4"],
+            "to": []
+        },
+        {
+            "name": "2.MD.1",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Measure the length of an object by selecting and using appropriate tools such as rulers, yardsticks, meter sticks, and measuring tapes.",
+            "from": ["1.MD.2"],
+            "to": ["2.MD.2", "2.MD.3", "3.MD.5"]
+        },
+        {
+            "name": "2.MD.2",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Measure the length of an object twice, using length units of different lengths for the two measurements; describe how the two measurements relate to the size of the unit chosen.",
+            "from": ["2.MD.1", "2.MD.3"],
+            "to": ["3.NF.1"]
+        },
+        {
+            "name": "2.MD.3",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Estimate lengths using units of inches, feet, centimeters, and meters.",
+            "from": ["2.MD.1"],
+            "to": ["2.MD.2", "2.MD.4"]
+        },
+        {
+            "name": "2.MD.4",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Measure to determine how much longer one object is than another, expressing the length difference in terms of a standard length unit.",
+            "from": ["2.MD.3"],
+            "to": ["2.MD.5"]
+        },
+        {
+            "name": "2.MD.5",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Use addition and subtraction within 100 to solve word problems involving lengths that are given in the same units, e.g., by using drawings (such as drawings of rulers) and equations with a symbol for the unknown number to represent the problem.",
+            "from": ["2.MD.4"],
+            "to": []
+        },
+        {
+            "name": "2.MD.6",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Represent whole numbers as lengths from 0 on a number line diagram with equally spaced points corresponding to the numbers 0, 1, 2, ..., and represent whole-number sums and differences within 100 on a number line diagram.",
+            "from": [],
+            "to": ["3.NF.2"]
+        },
+        {
+            "name": "2.MD.7",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Tell and write time from analog and digital clocks to the nearest five minutes, using a.m. and p.m.",
+            "from": ["1.MD.3"],
+            "to": []
+        },
+        {
+            "name": "2.MD.8",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately. Example: If you have 2 dimes and 3 pennies, how many cents do you have?",
+            "from": [],
+            "to": []
+        },
+        {
+            "name": "2.MD.9",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Generate measurement data by measuring lengths of several objects to the nearest whole unit, or by making repeated measurements of the same object. Show the measurements by making a line plot, where the horizontal scale is marked off in whole-number units.",
+            "from": [],
+            "to": []
+        },
+        {
+            "name": "2.MD.10",
+            "grade": "2nd Grade",
+            "domain": "Measurement and Data",
+            "description": "Draw a picture graph and a bar graph (with single-unit scale) to represent a data set with up to four categories. Solve simple put- together, take-apart, and compare problems* using information presented in a bar graph.",
+            "from": ["1.MD.4"],
+            "to": []
+        },
+        {
+            "name": "2.G.1",
+            "grade": "2nd Grade",
+            "domain": "Geometry",
+            "description": "Recognize and draw shapes having specified attributes, such as a given number of angles or a given number of equal faces. Identify triangles, quadrilaterals, pentagons, hexagons, and cubes.",
+            "from": ["1.G.1"],
+            "to": ["3.G.1"]
+        },
+        {
+            "name": "2.G.2",
+            "grade": "2nd Grade",
+            "domain": "Geometry",
+            "description": "Partition a rectangle into rows and columns of same-size squares and count to find the total number of them.",
+            "from": [],
+            "to": ["2.G.3", "3.MD.6"]
+        },
+        {
+            "name": "2.G.3",
+            "grade": "2nd Grade",
+            "domain": "Geometry",
+            "description": "Partition circles and rectangles into two, three, or four equal shares, describe the shares using the words halves, thirds, half of, a third of, etc., and describe the whole as two halves, three thirds, four fourths. Recognize that equal shares of identical wholes need not have the same shape.",
+            "from": ["1.G.3", "2.G.2"],
+            "to": ["3.NF.1"]
+        },
+        {
+            "name": "3.OA.1",
+            "grade": "3rd Grade",
+            "domain": "Operations and Algebraic Thinking",
+            "description": "",
+            "from": [],
+            "to": []
+        },
+        {
+            "name": "3.NBT.1",
+            "grade": "3rd Grade",
+            "domain": "Numbers and Operations in Base Ten",
+            "description": "",
+            "from": [],
+            "to": []
+        },
+        {
+            "name": "3.NF.1",
+            "grade": "3rd Grade",
+            "domain": "Numbers and Operations—Fractions",
+            "description": "",
+            "from": [],
+            "to": []
+        },
+        {
+            "name": "3.MD.1",
+            "grade": "3rd Grade",
+            "domain": "Measurement and Data",
+            "description": "",
+            "from": [],
+            "to": []
+        },
+        {
+            "name": "3.G.1",
+            "grade": "3rd Grade",
+            "domain": "Geometry",
+            "description": "",
+            "from": [],
+            "to": []
+        },
+        {
+        }
+    ]
+}
